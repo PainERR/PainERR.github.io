@@ -1,3 +1,19 @@
+/*-_-$~Grouped - Settings~$-_-*/
+
+  /*---Blue Button Color---*/
+    .blue-button {
+      color: #00f;
+    }
+  /*---Green Button Color---*/
+    .green-button {
+      color: #0f0;
+    }
+  /* Red Button Color */
+    .red-button {
+      color: #f00;
+    }
+
+
 /*-_-$~Dark - Theme~$-_-*/
 
   /*---Dark Background Image---*/
