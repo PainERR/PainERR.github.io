@@ -285,7 +285,6 @@
 .bd-button:hover,
 .username__81ee6,
 .activity__24558,
-.iconBadge_fdf33a,
 .button_d553e5:hover,
 .defaultColor__87d87,
 .option_b5597b:hover,
@@ -333,14 +332,12 @@
 .fieldList_aab0de {
   background-color: var(---dark-color-6) !important;
 }
-.message__04d9f,
-.iconBadge_fdf33a {
+.message__04d9f {
   background-color: var(---dark-color-8) !important;
 }
 
 /*--> Elements*/
 .bd-button,
-.icon__92653,
 .icon__5a617,
 .icon__5a617,
 .button_d553e5,
@@ -423,7 +420,6 @@
 .peopleListItem_d14722:hover {
   background-color: var(---main-color-5) !important;
 }
-.icon__92653,
 .accountButtonInner__80e3a:hover, 
 .clickable__17ccb:active .layout_bb8e67,
 .textBadge__45d79[style*="background-color:"] {
@@ -782,6 +778,19 @@
   /*--- HAZARAD VARIABLES ---*/
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 
+.iconBadge_fdf33a {
+  background: var(---dark-color-7);
+  box-shadow: 0 0 0 1px var(---dark-color);
+}
+.iconBadge_fdf33a.isCurrentUserConnected_d9734f {
+  background: var(---main-color);
+  box-shadow: 0 0 0 2px var(---main-color);
+}
+.icon__92653 {
+  padding: 1px;
+  color: var(---main-color);
+  filter: drop-shadow(0 0 2px var(--main-color));
+}
 
 .stepNumber_f429db .heading-md-semibold__574c7 {
   color: #800080 !important;
@@ -848,7 +857,10 @@ background-color: rgb(0, 255, 0) !important;
 }
 .tooltip__01384 .flowerStarContainer_d8d14b,
 .header__104ca .flowerStarContainer_d8d14b {
-  background-image: var(---server-badge-icon) center/contain no-repeat;
+  width: 100%;
+  height: 100%;
+  background: var(---server-badge-icon) center / contain no-repeat;
+  border-radius: 5px;
 }
 .spoilerMarkdownContent__2b8f8 {
   background-color: rgba(255, 255, 255, 0.01);
