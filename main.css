@@ -1017,7 +1017,7 @@ button.bd-addon-button:not(.bd-link, .bd-button-danger):hover
                    blur(var(---background-blur));
 }
 .app_de4237 {
-  background-image: url(https://i.imgur.com/CdyoUzP.jpg);
+  background-image: var(---background-image);
   background-size: cover;
 }
 .theme-dark .root_a28985 {
