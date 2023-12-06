@@ -805,7 +805,7 @@
 .cozy_f5c119 .header__39b23,
 .username_d30d99 {
   color: var(---username-color);
-  text-shadow: 0 0 5px #000;
+  text-shadow: 0 0 5px #000 !important;
 }
 .message__80c10,
 .markup_a7e664 {
