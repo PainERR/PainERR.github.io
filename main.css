@@ -45,6 +45,8 @@
 .root-2s1-ri > *,
 .replyBar_b64d74,
 .scroller__52680,
+.wrapper_bd2abe ,
+.wrapper_bd2abe .flex_f5fbb7 ,
 .scroller__244e5,
 .scroller__52ae7,
 .scroller-3b1p7z,
@@ -286,6 +288,7 @@
 .actionButton__23182,
 .embedWrapper_c143d9,
 .container_c24cbd:hover,
+.colorBrand_b2253e,
 .channelTextArea__2e60f,
 .categorySection__1f2b4,
 .messagesPopoutWrap_b3b384,
@@ -465,6 +468,7 @@
 /*--> Elements*/
 .item__183e8,
 .content_d67847,
+.centerIcon__6075a,
 .theme-dark .main-color {
   color: var(---main-color) !important;
 }
@@ -562,14 +566,11 @@
 .name__590d6:after,
 .name__590d6:before {
   content: "";
-  height: 2px;
+  height: 1px;
   flex-grow: 1;
-  transition: all 0.3s ease-in-out;
-  background: linear-gradient(to right,
-    var(---categories-color) 50%,
-    transparent
-  );
-  margin-left: 5px;
+  background: var(---categories-color);
+  border-style: outset;
+  margin-left: 5px
 }
 .lookFilled__19298.colorBrand_b2253e {
   background-image: -webkit-radial-gradient(
@@ -809,6 +810,10 @@
 .message__80c10,
 .markup_a7e664 {
   color: var(---messages-color);
+}
+::selection {
+  color: var(---selection-text);
+  background-color: var(---selection-background);
 }
 
 
